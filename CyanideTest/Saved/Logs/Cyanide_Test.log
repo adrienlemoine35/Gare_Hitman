@@ -1,4 +1,4 @@
-﻿Log file open, 05/10/18 15:41:16
+﻿Log file open, 05/10/18 16:18:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Cyanide_Test
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1277360211) SRandInit(-1277360211).
+LogInit: Display: RandInit(302523595) SRandInit(302523595).
 LogInit: Read version file with build ID '3944462'
-LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.332378
+LogStats: Stats thread started at 0.300514
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3944462).
@@ -171,7 +171,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.769s to configure plugins.
+LogStreaming: Display: Took  3.289s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -191,9 +191,9 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am Ordinateur (192.168.1.26:0)
-LogInit: Build: ++UE4+Release-4.19-CL-3944462
-LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: WinSock: I am PC-Gueux1er (192.168.1.8:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
 LogInit: Net CL: 3944462
 LogDevObjectVersion: Number of dev versions registered: 18
@@ -215,505 +215,708 @@ LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
 LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
-LogInit: Compiled (64-bit): Mar 13 2018 23:12:32
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.10-13.41.17:460][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.10-13.41.17:460][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.10-13.41.17:470][  0]LogInit: Computer: ORDINATEUR
-[2018.05.10-13.41.17:470][  0]LogInit: User: Utilisateur
-[2018.05.10-13.41.17:470][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.10-13.41.17:470][  0]LogInit: High frequency timer resolution =2.728134 MHz
-[2018.05.10-13.41.17:471][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.10-13.41.17:471][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.10-13.41.17:471][  0]LogMemory: Process Physical Memory: 278.64 MB used, 278.64 MB peak
-[2018.05.10-13.41.17:471][  0]LogMemory: Process Virtual Memory: 268.95 MB used, 268.95 MB peak
-[2018.05.10-13.41.17:471][  0]LogMemory: Physical Memory: 4283.02 MB used,  3828.72 MB free, 8111.74 MB total
-[2018.05.10-13.41.17:471][  0]LogMemory: Virtual Memory: 640.95 MB used,  3828.72 MB free, 8388608.00 MB total
-[2018.05.10-13.41.17:501][  0]LogInit: Using OS detected language (fr-FR).
-[2018.05.10-13.41.17:501][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.05.10-13.41.17:504][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.05.10-13.41.17:994][  0]LogStreaming: Display: Took  0.493s to EndInitTextLocalization.
-[2018.05.10-13.41.17:994][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.05.10-13.41.17:994][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.05.10-13.41.17:995][  0]LogInit: Setting process to DPI aware
-[2018.05.10-13.41.17:997][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.05.10-13.41.17:997][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.05.10-13.41.17:997][  0]LogInit: Setting process to DPI aware
-[2018.05.10-13.41.18:019][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.10-13.41.18:019][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.10-13.41.18:253][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.10-13.41.18:282][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX880M' (Feature Level 11_0)
-[2018.05.10-13.41.18:282][  0]LogD3D11RHI:       4027/0/3799 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.10-13.41.18:299][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX880M' (Feature Level 11_0)
-[2018.05.10-13.41.18:299][  0]LogD3D11RHI:       4027/0/3799 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2018.05.10-13.41.18:299][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.10-13.41.18:305][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.10-13.41.18:305][  0]LogD3D11RHI:     GPU DeviceId: 0x1198 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.10-13.41.18:305][  0]LogWindows: EnumDisplayDevices:
-[2018.05.10-13.41.18:305][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.05.10-13.41.18:305][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.10-13.41.18:305][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    3. 'NVIDIA GeForce GTX880M' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    4. 'NVIDIA GeForce GTX880M' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    5. 'NVIDIA GeForce GTX880M' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    6. 'NVIDIA GeForce GTX880M' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.05.10-13.41.18:306][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.05.10-13.41.18:306][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX880M
-[2018.05.10-13.41.18:306][  0]LogD3D11RHI:   Driver Version: 354.35 (internal:10.18.13.5435, unified:354.35)
-[2018.05.10-13.41.18:306][  0]LogD3D11RHI:      Driver Date: 10-14-2015
-[2018.05.10-13.41.18:306][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
-[2018.05.10-13.41.18:327][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
-[2018.05.10-13.41.18:327][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.05.10-13.41.18:327][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.10-13.41.18:343][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.10-13.41.18:345][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Intermediate/Shaders/WorkingDirectory/8976/).
-[2018.05.10-13.41.18:345][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utilisateur/AppData/Local/Temp/UnrealShaderWorkingDir/B10F69994094323B6555AF904B51D1DF/'.
-[2018.05.10-13.41.18:919][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.10-13.41.18:935][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.10-13.41.18:950][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.10-13.41.18:963][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.10-13.41.18:980][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.10-13.41.18:995][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.10-13.41.19:011][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.10-13.41.19:024][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.10-13.41.19:034][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.10-13.41.19:047][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.10-13.41.19:067][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.10-13.41.19:084][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.10-13.41.19:100][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.10-13.41.19:113][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.10-13.41.19:128][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.10-13.41.19:160][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.10-13.41.19:160][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.10-13.41.19:176][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.10-13.41.19:178][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.10-13.41.19:217][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.10-13.41.19:231][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.10-13.41.19:244][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.10-13.41.19:257][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.10-13.41.19:271][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.10-13.41.19:284][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.10-13.41.19:285][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.10-13.41.19:394][  0]LogXGEController: Cleaning working directory: C:/Users/Utilisateur/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.05.10-13.41.19:395][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.10-13.41.19:395][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.10-13.41.19:395][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.10-13.41.20:248][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.10-13.41.20:347][  0]LogDerivedDataCache: Loaded boot cache 0.10s 74MB C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.10-13.41.20:347][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.10-13.41.20:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.10-13.41.20:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.10-13.41.20:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.10-13.41.20:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.10-13.41.20:367][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.10-13.41.20:380][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.10-13.41.20:391][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.10-13.41.20:392][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.10-13.41.20:393][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.10-13.41.20:393][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.10-13.41.20:513][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2018.05.10-13.41.23:818][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.10-13.41.23:971][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.10-13.41.23:973][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.10-13.41.23:973][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.10-13.41.23:973][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.10-13.41.23:973][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.10-13.41.23:973][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.10-13.41.24:001][  0]LogNetVersion: Cyanide_Test , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1634222792)
-[2018.05.10-13.41.24:489][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.046579 seconds
-[2018.05.10-13.41.24:496][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.10-13.41.24:496][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.05.10-13.41.24:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.10-13.41.26:275][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.10-13.41.26:300][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.10-13.41.26:658][  0]SourceControl: Source control is disabled
-[2018.05.10-13.41.26:658][  0]SourceControl: Source control is disabled
-[2018.05.10-13.41.26:671][  0]SourceControl: Source control is disabled
-[2018.05.10-13.41.26:684][  0]SourceControl: Source control is disabled
-[2018.05.10-13.41.27:091][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.10-13.41.27:216][  0]LogOcInput: OculusInput pre-init called
-[2018.05.10-13.41.27:322][  0]LogEngine: Initializing Engine...
-[2018.05.10-13.41.27:324][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.10-13.41.27:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.10-13.41.27:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.10-13.41.27:615][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.10-13.41.27:642][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2018.05.10-13.41.27:653][  0]LogInit: FAudioDevice initialized.
-[2018.05.10-13.41.28:042][  0]LogDerivedDataCache: Saved boot cache 0.39s 74MB C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.10-13.41.28:050][  0]LogInit: Texture streaming: Enabled
-[2018.05.10-13.41.28:070][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.10-13.41.28:080][  0]LogInit: Transaction tracking system initialized
-[2018.05.10-13.41.28:104][  0]BlueprintLog: New page: Editor Load
-[2018.05.10-13.41.28:196][  0]LocalizationService: Localization service is disabled
-[2018.05.10-13.41.28:271][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.05.10-13.41.28:271][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.05.10-13.41.28:271][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2018.05.10-13.41.28:390][  0]LogConsoleResponse: Display: 
-[2018.05.10-13.41.28:575][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.10-13.41.28:575][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.10-13.41.28:575][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.10-13.41.28:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.10-13.41.28:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.10-13.41.28:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/' took 0.01s
-[2018.05.10-13.41.28:914][  0]SourceControl: Source control is disabled
-[2018.05.10-13.41.28:914][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/Maps/Example.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.10-13.41.28:917][  0]LightingResults: New page: Lighting Build
-[2018.05.10-13.41.28:919][  0]MapCheck: New page: Map Check
-[2018.05.10-13.41.28:919][  0]LightingResults: New page: Lighting Build
-[2018.05.10-13.41.31:495][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [13.870653ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.05.10-13.41.31:561][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [3.555544ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.05.10-13.41.31:807][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.524534ms] /Game/Environment/IOMeshes/BottleDistract_DM.BottleDistract_DM
-[2018.05.10-13.41.32:172][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [5.312056ms] /Game/PlayerAnimation/PlayerMannequin/Mesh/SK_Mannequin.SK_Mannequin
-[2018.05.10-13.41.32:426][  0]LogAIModule: Creating AISystem for world Example
-[2018.05.10-13.41.32:556][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.10-13.41.32:649][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.10-13.41.32:859][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 210,571ms to complete.
-[2018.05.10-13.41.32:859][  0]LogFileHelpers: Loading map 'Example' took 3.945
-[2018.05.10-13.41.32:988][  0]LogCollectionManager: Loaded 0 collections in 0.001431 seconds
-[2018.05.10-13.41.33:028][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Saved/Collections/' took 0.01s
-[2018.05.10-13.41.33:028][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/Developers/Utilisateur/Collections/' took 0.01s
-[2018.05.10-13.41.33:028][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/Collections/' took 0.01s
-[2018.05.10-13.41.33:028][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.10-13.41.33:037][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2461 classes and 563 folders.
-[2018.05.10-13.41.33:043][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.10-13.41.33:219][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.10-13.41.33:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.05.10-13.41.33:243][  0]LogSlate: Took 0.000827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.10-13.41.33:245][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.10-13.41.33:250][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.10-13.41.33:374][  0]LogRenderer: Reallocating scene render targets to support 1276x628 Format 10 NumSamples 1 (Frame:1).
-[2018.05.10-13.41.33:837][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.10-13.41.33:837][  0]LogLoad: (Engine Initialization) Total time: 23.14 seconds
-[2018.05.10-13.41.33:837][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.10-13.41.33:907][  0]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Station_Sol_PetitUnwrap_256_256_Box36)
-[2018.05.10-13.41.34:031][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.10-13.41.34:055][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.05.10-13.41.34:103][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.10-13.41.34:241][  1]LogAssetRegistry: Asset discovery search completed in 13.7490 seconds
-[2018.05.10-13.41.34:244][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.10-13.41.34:244][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
-[2018.05.10-13.42.59:982][318]LogSlate: Window 'Cyanide_Test - Unreal Editor' being destroyed
-[2018.05.10-13.43.00:200][319]Cmd: QUIT_EDITOR
-[2018.05.10-13.43.00:228][319]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.05.10-13.43.00:228][319]LogExit: Preparing to exit.
-[2018.05.10-13.43.00:347][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/' was aborted.
-[2018.05.10-13.43.00:397][319]LogExit: Editor shut down
-[2018.05.10-13.43.00:401][319]LogExit: Transaction tracking system shut down
-[2018.05.10-13.43.00:622][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.10-13.43.00:623][319]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.10-13.43.00:702][319]LogExit: Object subsystem successfully closed.
-[2018.05.10-13.43.00:712][319]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.05.10-13.43.00:716][319]LogD3D11RHI: Shutdown
-[2018.05.10-13.43.00:716][319]LogD3D11RHI: CleanupD3DDevice
-[2018.05.10-13.43.00:718][319]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.10-13.43.00:739][319]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
-[2018.05.10-13.43.00:739][319]LogModuleManager: Shutting down and abandoning module SceneOutliner (576)
-[2018.05.10-13.43.00:739][319]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
-[2018.05.10-13.43.00:739][319]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
-[2018.05.10-13.43.00:741][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/Collections/' was aborted.
-[2018.05.10-13.43.00:741][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Content/Developers/Utilisateur/Collections/' was aborted.
-[2018.05.10-13.43.00:741][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Utilisateur/Pictures/3ème_année/Level Design/Cyanide_Hitman/CyanideTest/Saved/Collections/' was aborted.
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module StatsViewer (566)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module FoliageEdit (564)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module LandscapeEditor (562)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module MeshPaintMode (560)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (558)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module ActorPickerMode (556)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module GeometryMode (554)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module TextureAlignMode (552)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module BspMode (550)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (548)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module HardwareSurvey (546)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (544)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module AutomationWorker (542)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (540)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module SequenceRecorder (539)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (536)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (534)
-[2018.05.10-13.43.00:741][319]LogModuleManager: Shutting down and abandoning module PlacementMode (533)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (528)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (526)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (524)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (522)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (520)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (518)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (516)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (514)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (512)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (510)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module CharacterAI (508)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module SmartSnapping (506)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module SessionServices (504)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module ViewportSnapping (502)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module ViewportInteraction (500)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module ClothPainter (498)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (497)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module LogVisualizer (494)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module IntroTutorials (492)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (491)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (488)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (486)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (484)
-[2018.05.10-13.43.00:742][319]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (483)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (480)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (478)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (476)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module InputBindingEditor (474)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module MergeActors (472)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (470)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module LocalizationService (469)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module HardwareTargeting (466)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (464)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module UndoHistory (462)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module XmlParser (460)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module Blutility (458)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (456)
-[2018.05.10-13.43.01:261][319]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (455)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (452)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module SettingsEditor (450)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module ProjectLauncher (448)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module SessionFrontend (446)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module ProfilerClient (444)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module DeviceManager (442)
-[2018.05.10-13.43.01:262][319]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (441)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module AutomationController (438)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module AutomationWindow (436)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module Layers (434)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (432)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module DetailCustomizations (430)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module PackagesDialog (428)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module Persona (426)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (425)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module AnimGraph (423)
-[2018.05.10-13.43.01:312][319]LogModuleManager: Shutting down and abandoning module Kismet (420)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module GraphEditor (418)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module ClassViewer (416)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module Toolbox (414)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module ModuleUI (412)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module MovieSceneTools (410)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module OutputLog (408)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module GammaUI (406)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module Documentation (404)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (402)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module MovieScene (400)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (398)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module LauncherPlatform (396)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module AnalyticsET (394)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module PortalServices (392)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module PortalRpc (390)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module MessagingRpc (388)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module AIModule (386)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module GameplayDebugger (385)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module AITestSuite (383)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module DesktopPlatform (380)
-[2018.05.10-13.43.01:314][319]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module SteamVRController (374)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (372)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module OculusInput (368)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (364)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module CableComponent (362)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module AudioCapture (360)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (358)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module AndroidPermission (356)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (352)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (350)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (348)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
-[2018.05.10-13.43.01:529][319]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
-[2018.05.10-13.43.01:531][319]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
-[2018.05.10-13.43.01:531][319]LogModuleManager: Shutting down and abandoning module AlembicImporter (338)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module AlembicLibrary (337)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module GeometryCache (336)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (335)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (328)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module PluginBrowser (326)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (324)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module SourceControl (307)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module OculusEditor (286)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (284)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (282)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (280)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (278)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module ApexDestruction (276)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.05.10-13.43.01:532][319]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.05.10-13.43.01:632][319]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.05.10-13.43.01:732][319]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.05.10-13.43.01:732][319]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.05.10-13.43.01:732][319]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.05.10-13.43.01:732][319]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.05.10-13.43.01:732][319]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.05.10-13.43.01:732][319]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.05.10-13.43.01:733][319]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.05.10-13.43.01:733][319]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.05.10-13.43.01:733][319]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.05.10-13.43.01:733][319]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.05.10-13.43.01:734][319]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.05.10-13.43.01:735][319]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.05.10-13.43.01:735][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.05.10-13.43.01:735][319]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.05.10-13.43.01:735][319]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.05.10-13.43.01:969][319]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.05.10-13.43.01:969][319]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.05.10-13.43.01:969][319]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.05.10-13.43.01:969][319]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
-[2018.05.10-13.43.01:970][319]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
-[2018.05.10-13.43.01:970][319]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
-[2018.05.10-13.43.01:970][319]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
-[2018.05.10-13.43.01:970][319]LogModuleManager: Shutting down and abandoning module Media (225)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.05.10-13.43.01:975][319]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.05.10-13.43.01:977][319]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.05.10-13.43.01:978][319]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.05.10-13.43.02:383][319]LogDerivedDataCache: Shutdown
-[2018.05.10-13.43.02:383][319]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.05.10-13.43.02:383][319]LogXGEController: Cleaning working directory: C:/Users/Utilisateur/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.05.10-13.43.02:383][319]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.05.10-13.43.02:383][319]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.10-13.43.02:384][319]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.10-13.43.02:384][319]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.10-13.43.02:384][319]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1F77B6A5-48BA-F5D9-F198-5896B1D319D4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.0-3944462%2B%2B%2BUE4%2BRelease-4.19&UserID=bb8b4f9c4c1b1d518ae028b5a4c1d227%7C668f192e962e47498cf76e1a5843a0f6%7C8ae3357e-b490-4c8a-99fd-6f89eba07275&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.10-13.43.02:410][319]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.10-13.43.02:411][319]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.10-13.43.02:412][319]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.10-13.43.02:417][319]LogExit: Exiting.
-[2018.05.10-13.43.02:431][319]Log file closed, 05/10/18 15:43:02
+[2018.05.10-14.18.44:397][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.10-14.18.44:397][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.10-14.18.44:653][  0]LogInit: Computer: PC-GUEUX1ER
+[2018.05.10-14.18.44:653][  0]LogInit: User: Gueux1er
+[2018.05.10-14.18.44:653][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.10-14.18.44:653][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2018.05.10-14.18.44:653][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.10-14.18.44:653][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.10-14.18.44:653][  0]LogMemory: Process Physical Memory: 275.92 MB used, 275.92 MB peak
+[2018.05.10-14.18.44:653][  0]LogMemory: Process Virtual Memory: 272.97 MB used, 272.97 MB peak
+[2018.05.10-14.18.44:653][  0]LogMemory: Physical Memory: 6119.25 MB used,  1946.48 MB free, 8065.73 MB total
+[2018.05.10-14.18.44:653][  0]LogMemory: Virtual Memory: 686.69 MB used,  1946.48 MB free, 134217728.00 MB total
+[2018.05.10-14.18.45:188][  0]LogInit: Using OS detected language (fr-CA).
+[2018.05.10-14.18.45:188][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.05.10-14.18.45:439][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the language.
+[2018.05.10-14.18.46:232][  0]LogStreaming: Display: Took  1.044s to EndInitTextLocalization.
+[2018.05.10-14.18.46:232][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.10-14.18.46:464][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.10-14.18.46:464][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.10-14.18.50:544][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.10-14.18.50:618][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2018.05.10-14.18.50:618][  0]LogD3D11RHI:       3040/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.10-14.18.50:635][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.05.10-14.18.50:635][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.10-14.18.50:640][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.10-14.18.50:640][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.10-14.18.50:640][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.10-14.18.50:653][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.10-14.18.50:653][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.10-14.18.50:653][  0]LogWindows: EnumDisplayDevices:
+[2018.05.10-14.18.50:653][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.05.10-14.18.50:654][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.05.10-14.18.50:654][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.10-14.18.50:654][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.10-14.18.50:654][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2018.05.10-14.18.50:654][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.10-14.18.50:654][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.10-14.18.50:654][  0]LogRHI: Texture pool is 2128 MB (70% of 3040 MB)
+[2018.05.10-14.18.50:698][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.05.10-14.18.50:698][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.10-14.18.50:698][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.10-14.18.50:715][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.10-14.18.50:717][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Intermediate/Shaders/WorkingDirectory/7772/).
+[2018.05.10-14.18.50:717][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gueux_1er/AppData/Local/Temp/UnrealShaderWorkingDir/76BE9A8E4E629A581A7F989A3B769541/'.
+[2018.05.10-14.18.51:605][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.10-14.18.51:643][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.10-14.18.51:693][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.10-14.18.51:738][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.10-14.18.51:824][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.10-14.18.51:860][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.10-14.18.51:882][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.10-14.18.51:918][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.10-14.18.51:952][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.10-14.18.51:980][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.10-14.18.52:035][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.10-14.18.52:074][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.10-14.18.52:097][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.10-14.18.52:124][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.10-14.18.52:153][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.10-14.18.52:216][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.10-14.18.52:216][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.10-14.18.52:276][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.10-14.18.52:298][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.10-14.18.52:405][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.10-14.18.52:419][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.10-14.18.52:486][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.10-14.18.52:543][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.10-14.18.52:572][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.10-14.18.52:608][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.10-14.18.52:608][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.10-14.18.53:599][  0]LogXGEController: Cleaning working directory: C:/Users/Gueux_1er/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.10-14.18.53:599][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.10-14.18.53:600][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.10-14.18.53:600][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.10-14.18.54:584][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.10-14.18.54:839][  0]LogDerivedDataCache: Loaded boot cache 0.25s 74MB C:/Users/Gueux_1er/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.10-14.18.54:839][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gueux_1er/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.10-14.18.54:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.10-14.18.54:839][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.10-14.18.54:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.10-14.18.54:839][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.10-14.18.54:888][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.10-14.18.54:901][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gueux_1er/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.10-14.18.54:916][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.10-14.18.54:934][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.10-14.18.54:954][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.10-14.18.54:954][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.10-14.18.59:383][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.05.10-14.19.02:006][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.10-14.19.02:840][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.10-14.19.02:887][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.10-14.19.02:887][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.10-14.19.02:887][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.10-14.19.02:887][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.10-14.19.02:887][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.10-14.19.02:958][  0]LogNetVersion: Cyanide_Test , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1634222792)
+[2018.05.10-14.19.05:187][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.078542 seconds
+[2018.05.10-14.19.05:196][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.10-14.19.05:196][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.10-14.19.05:196][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.10-14.19.47:812][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.10-14.19.47:884][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.10-14.19.49:515][  0]SourceControl: Source control is disabled
+[2018.05.10-14.19.49:515][  0]SourceControl: Source control is disabled
+[2018.05.10-14.19.49:678][  0]SourceControl: Source control is disabled
+[2018.05.10-14.19.49:745][  0]SourceControl: Source control is disabled
+[2018.05.10-14.19.51:716][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.10-14.19.52:173][  0]LogOcInput: OculusInput pre-init called
+[2018.05.10-14.19.52:588][  0]LogEngine: Initializing Engine...
+[2018.05.10-14.19.52:600][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.10-14.19.52:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.10-14.19.52:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.10-14.19.53:121][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.10-14.19.53:144][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-14.19.53:222][  0]LogInit: FAudioDevice initialized.
+[2018.05.10-14.19.53:305][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/Gueux_1er/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.10-14.19.53:331][  0]LogInit: Texture streaming: Enabled
+[2018.05.10-14.19.53:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.10-14.19.53:513][  0]LogInit: Transaction tracking system initialized
+[2018.05.10-14.19.53:843][  0]BlueprintLog: New page: Editor Load
+[2018.05.10-14.19.54:716][  0]LocalizationService: Localization service is disabled
+[2018.05.10-14.19.55:491][  0]LogConsoleResponse: Display: 
+[2018.05.10-14.19.57:042][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.10-14.19.57:043][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.10-14.19.57:043][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.10-14.19.57:043][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.10-14.19.57:043][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.10-14.19.57:493][  0]LogFileCache: Scanning file cache for directory 'D:/Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/' took 0.02s
+[2018.05.10-14.19.59:475][  0]SourceControl: Source control is disabled
+[2018.05.10-14.19.59:475][  0]Cmd: MAP LOAD FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/Maps/Example.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.10-14.19.59:476][  0]LightingResults: New page: Lighting Build
+[2018.05.10-14.19.59:498][  0]MapCheck: New page: Map Check
+[2018.05.10-14.19.59:498][  0]LightingResults: New page: Lighting Build
+[2018.05.10-14.20.03:006][  0]LogTexture: Display: Building textures: texture (AutoDXT, 2048X2048)
+[2018.05.10-14.20.03:129][  0]LogStaticMesh: Building static mesh CoffeeTable...
+[2018.05.10-14.20.03:218][  0]LogStaticMesh: Built static mesh [0.09s] /Game/ZImports/CoffeeTable.CoffeeTable
+[2018.05.10-14.20.03:320][  0]LogTexture: Display: Building textures: AquariumTexture (BGRA8, 1380X665)
+[2018.05.10-14.20.03:320][  0]LogStaticMesh: Building static mesh Rail_Droit1_Boulon...
+[2018.05.10-14.20.03:352][  0]LogStaticMesh: Built static mesh [0.03s] /Game/ZImports/Rail_Droit1_Boulon.Rail_Droit1_Boulon
+[2018.05.10-14.20.03:355][  0]LogStaticMesh: Building static mesh Rail_Droit1_Rail_Droit...
+[2018.05.10-14.20.03:382][  0]LogStaticMesh: Built static mesh [0.03s] /Game/ZImports/Rail_Droit1_Rail_Droit.Rail_Droit1_Rail_Droit
+[2018.05.10-14.20.03:394][  0]LogStaticMesh: Building static mesh Station_Aquaroim_256_200_64...
+[2018.05.10-14.20.03:413][  0]LogStaticMesh: Built static mesh [0.02s] /Game/ZImports/Station_Aquaroim_256_200_64.Station_Aquaroim_256_200_64
+[2018.05.10-14.20.03:420][  0]LogStaticMesh: Building static mesh Station_Ladder05_Ladder05...
+[2018.05.10-14.20.03:474][  0]LogStaticMesh: Built static mesh [0.06s] /Game/ZImports/Station_Ladder05_Ladder05.Station_Ladder05_Ladder05
+[2018.05.10-14.20.03:495][  0]LogStaticMesh: Building static mesh Station_ToolHammer_Hammer...
+[2018.05.10-14.20.03:504][  0]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Station_ToolHammer_Hammer.Station_ToolHammer_Hammer
+[2018.05.10-14.20.03:520][  0]LogMaterial: Missing cached shader map for material Brique_Mur2Base_Color_Mat, compiling. 
+[2018.05.10-14.20.15:164][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.20.15:164][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.20.15:164][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.20.15:164][  0]LogTexture: Display: Building textures: Tex_Composteur (AutoDXT, 2048X2048)
+[2018.05.10-14.20.15:164][  0]LogTexture: Display: Building textures: ray (AutoDXT, 3000X2000)
+[2018.05.10-14.20.15:164][  0]LogMaterial: Missing cached shader map for material ray_Mat, compiling. 
+[2018.05.10-14.20.15:192][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.20.15:192][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.20.15:192][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.20.15:862][  0]LogMaterial: Missing cached shader map for material texture_Mat, compiling. 
+[2018.05.10-14.20.16:950][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.20.16:951][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.20.16:951][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.20.16:951][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [105.186455ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.05.10-14.20.17:929][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.765829ms] /Game/Environment/IOMeshes/BottleDistract_DM.BottleDistract_DM
+[2018.05.10-14.20.18:043][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [15.896901ms] /Game/PlayerAnimation/PlayerMannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.05.10-14.20.18:291][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [43.945122ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.05.10-14.20.18:715][  0]LogMaterial: Missing cached shader map for material Tex_Composteur_Mat, compiling. 
+[2018.05.10-14.20.18:764][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.20.18:764][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.20.18:764][  0]LogMaterial: Missing cached shader map for material AquariumTexture_Mat, compiling. 
+[2018.05.10-14.20.18:795][  0]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.05.10-14.20.18:815][  0]LogMaterial: Missing cached shader map for material Canape1, compiling. 
+[2018.05.10-14.20.18:838][  0]LogMaterial: Missing cached shader map for material Canape2, compiling. 
+[2018.05.10-14.20.19:491][  0]LogAIModule: Creating AISystem for world Example
+[2018.05.10-14.20.21:168][  0]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.05.10-14.20.21:374][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.05.10-14.20.22:146][  0]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.05.10-14.20.22:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.10-14.20.22:532][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 382,584ms to complete.
+[2018.05.10-14.20.22:536][  0]LogFileHelpers: Loading map 'Example' took 23.061
+[2018.05.10-14.20.23:663][  0]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.05.10-14.20.23:749][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.10-14.20.23:749][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.10-14.20.25:103][  0]LogCollectionManager: Loaded 0 collections in 0.004326 seconds
+[2018.05.10-14.20.25:340][  0]LogFileCache: Scanning file cache for directory 'D:/Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Collections/' took 0.01s
+[2018.05.10-14.20.25:340][  0]LogFileCache: Scanning file cache for directory 'D:/Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/Developers/Gueux1er/Collections/' took 0.01s
+[2018.05.10-14.20.25:340][  0]LogFileCache: Scanning file cache for directory 'D:/Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/Collections/' took 0.01s
+[2018.05.10-14.20.25:340][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2018.05.10-14.20.25:376][  0]LogContentBrowser: Native class hierarchy populated in 0.0232 seconds. Added 2461 classes and 563 folders.
+[2018.05.10-14.20.25:552][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.10-14.20.25:552][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.05.10-14.20.27:206][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.10-14.20.27:307][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.10-14.20.28:204][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.10-14.20.28:204][  0]LogSlate: Took 0.028330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.10-14.20.28:227][  0]LogSlate: Took 0.013680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.10-14.20.28:323][  0]LogSlate: Took 0.023013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.10-14.20.29:126][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.10-14.20.29:126][  0]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.10-14.20.29:126][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.10-14.20.30:611][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.10-14.20.30:612][  0]LogLoad: (Engine Initialization) Total time: 116.20 seconds
+[2018.05.10-14.20.30:612][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.10-14.20.31:394][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.10-14.20.32:094][  1]LogSlate: Took 0.035558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.10-14.20.32:630][  3]LogAssetRegistry: Asset discovery search completed in 93.2692 seconds
+[2018.05.10-14.20.32:642][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.10-14.20.32:642][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2018.05.10-14.21.52:386][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-14.24.19:172][514]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.10-14.24.19:279][514]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX)
+[2018.05.10-14.24.19:388][514]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.24.19:388][514]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.24.19:388][514]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.24.19:388][514]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.24.19:388][514]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.24.19:388][514]LogFbx: ItemName: Material, ItemCount : 2
+[2018.05.10-14.24.19:398][514]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.24.19:422][514]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.24.22:832][514]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.24.22:978][514]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX)
+[2018.05.10-14.24.22:984][514]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_2.FBX)
+[2018.05.10-14.27.25:032][201]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_2.FBX)
+[2018.05.10-14.27.25:040][201]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.27.25:040][201]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.27.25:040][201]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.27.25:040][201]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.27.25:040][201]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.27.25:040][201]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.10-14.27.25:045][201]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_2.FBX
+[2018.05.10-14.27.25:054][201]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.27.27:360][201]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.27.27:402][201]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_2.FBX
+[2018.05.10-14.27.27:412][201]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.27.27:520][201]LogMaterial: Missing cached shader map for material PharmaciePanel_1_0, compiling. 
+[2018.05.10-14.27.27:589][201]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.27.27:589][201]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.27.27:589][201]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.27.27:607][201]LogStaticMesh: Building static mesh Pharmacie_Panneau_2...
+[2018.05.10-14.27.27:647][201]LogStaticMesh: Built static mesh [0.04s] /Game/ZImports/Pharmacie_Panneau_2.Pharmacie_Panneau_2
+[2018.05.10-14.27.27:714][201]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.27.27:756][201]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX)
+[2018.05.10-14.27.27:772][201]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.27.27:780][201]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.27.27:785][201]LogMaterial: Missing cached shader map for material PharmaciePanel_0_0, compiling. 
+[2018.05.10-14.27.27:796][201]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.27.27:814][201]LogFbx: Warning: Triangulating static mesh Box003
+[2018.05.10-14.27.27:847][201]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box003...
+[2018.05.10-14.27.27:852][201]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Box003.Pharmacie_Panneau_0_Box003
+[2018.05.10-14.27.27:867][201]LogMaterial: Missing cached shader map for material PharmaciePanel_0_1, compiling. 
+[2018.05.10-14.27.27:894][201]LogFbx: Warning: Triangulating static mesh Object001
+[2018.05.10-14.27.27:940][201]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Object001...
+[2018.05.10-14.27.27:946][201]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Object001.Pharmacie_Panneau_0_Object001
+[2018.05.10-14.27.27:965][201]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.27.27:974][201]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX)
+[2018.05.10-14.27.27:997][201]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX
+[2018.05.10-14.27.28:005][201]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.27.28:012][201]LogMaterial: Missing cached shader map for material PharmaciePanel_1_1, compiling. 
+[2018.05.10-14.27.28:046][201]LogFbx: Warning: Triangulating static mesh Box006
+[2018.05.10-14.27.28:108][201]LogStaticMesh: Building static mesh Pharmacie_Panneau_1_Box006...
+[2018.05.10-14.27.28:115][201]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_1_Box006.Pharmacie_Panneau_1_Box006
+[2018.05.10-14.27.28:139][201]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.27.28:446][202]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.05.10-14.27.30:957][278]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.05.10-14.27.31:195][282]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.05.10-14.27.32:656][317]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.05.10-14.27.33:367][334]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.10-14.27.33:585][339]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.10-14.27.37:150][442]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.27.37:157][442]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.30.31:853][210]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example' took 0.048
+[2018.05.10-14.30.31:922][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/Pharmacie_Panneau_2] ([1] browsable assets)...
+[2018.05.10-14.30.31:946][210]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ZImports/Pharmacie_Panneau_2.Pharmacie_Panneau_2]
+[2018.05.10-14.30.31:946][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/Pharmacie_Panneau_2]
+[2018.05.10-14.30.32:023][210]LogSavePackage: Save=38.80ms
+[2018.05.10-14.30.32:023][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_2_Auto1BB8EEFAF4DC21F77B6FCF6914BCC324E.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_2_Auto1.uasset'
+[2018.05.10-14.30.32:056][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_2_Auto1.uasset
+[2018.05.10-14.30.32:059][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/PharmaciePanel_1_0] ([1] browsable assets)...
+[2018.05.10-14.30.32:074][210]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/PharmaciePanel_1_0.PharmaciePanel_1_0]
+[2018.05.10-14.30.32:074][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/PharmaciePanel_1_0]
+[2018.05.10-14.30.32:097][210]LogSavePackage: Save=19.82ms
+[2018.05.10-14.30.32:097][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1_0_Auto1206612BE469166DF62635A89ED3FCEA5.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1_0_Auto1.uasset'
+[2018.05.10-14.30.32:102][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1_0_Auto1.uasset
+[2018.05.10-14.30.32:104][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/Pharmacie_Panneau_0_Box003] ([1] browsable assets)...
+[2018.05.10-14.30.32:119][210]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ZImports/Pharmacie_Panneau_0_Box003.Pharmacie_Panneau_0_Box003]
+[2018.05.10-14.30.32:119][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/Pharmacie_Panneau_0_Box003]
+[2018.05.10-14.30.32:136][210]LogSavePackage: Save=14.19ms
+[2018.05.10-14.30.32:136][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_0_Box003_Auto142504DE84875E9A755D111BFAA85EF55.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_0_Box003_Auto1.uasset'
+[2018.05.10-14.30.32:140][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_0_Box003_Auto1.uasset
+[2018.05.10-14.30.32:143][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/PharmaciePanel_0_0] ([1] browsable assets)...
+[2018.05.10-14.30.32:158][210]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/PharmaciePanel_0_0.PharmaciePanel_0_0]
+[2018.05.10-14.30.32:158][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/PharmaciePanel_0_0]
+[2018.05.10-14.30.32:190][210]LogSavePackage: Save=13.09ms
+[2018.05.10-14.30.32:190][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0_0_Auto1541DFADF4CB1763B8350BE9A88892B4B.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_0_0_Auto1.uasset'
+[2018.05.10-14.30.32:193][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_0_0_Auto1.uasset
+[2018.05.10-14.30.32:195][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/Pharmacie_Panneau_0_Object001] ([1] browsable assets)...
+[2018.05.10-14.30.32:209][210]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ZImports/Pharmacie_Panneau_0_Object001.Pharmacie_Panneau_0_Object001]
+[2018.05.10-14.30.32:209][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/Pharmacie_Panneau_0_Object001]
+[2018.05.10-14.30.32:226][210]LogSavePackage: Save=14.11ms
+[2018.05.10-14.30.32:226][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_0_Object001_Au0FDBEACA41B751D550F20D88218B5E5E.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_0_Object001_Auto1.uasset'
+[2018.05.10-14.30.32:229][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_0_Object001_Auto1.uasset
+[2018.05.10-14.30.32:231][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/PharmaciePanel_0_1] ([1] browsable assets)...
+[2018.05.10-14.30.32:246][210]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/PharmaciePanel_0_1.PharmaciePanel_0_1]
+[2018.05.10-14.30.32:247][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/PharmaciePanel_0_1]
+[2018.05.10-14.30.32:268][210]LogSavePackage: Save=18.90ms
+[2018.05.10-14.30.32:268][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0_1_Auto13B23246045374F8A1BEE49891DBAC6C7.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_0_1_Auto1.uasset'
+[2018.05.10-14.30.32:274][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_0_1_Auto1.uasset
+[2018.05.10-14.30.32:276][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/Pharmacie_Panneau_1_Box006] ([1] browsable assets)...
+[2018.05.10-14.30.32:292][210]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ZImports/Pharmacie_Panneau_1_Box006.Pharmacie_Panneau_1_Box006]
+[2018.05.10-14.30.32:292][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/Pharmacie_Panneau_1_Box006]
+[2018.05.10-14.30.32:311][210]LogSavePackage: Save=15.86ms
+[2018.05.10-14.30.32:311][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_1_Box006_Auto18BDFCE1A40D6916974C80180DE8911B9.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_1_Box006_Auto1.uasset'
+[2018.05.10-14.30.32:315][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_1_Box006_Auto1.uasset
+[2018.05.10-14.30.32:317][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/PharmaciePanel_1_1] ([1] browsable assets)...
+[2018.05.10-14.30.32:333][210]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/PharmaciePanel_1_1.PharmaciePanel_1_1]
+[2018.05.10-14.30.32:333][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/PharmaciePanel_1_1]
+[2018.05.10-14.30.32:351][210]LogSavePackage: Save=13.95ms
+[2018.05.10-14.30.32:351][210]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1_1_Auto13C1ED99644CB1D07E3D1FD985B0DB2FA.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1_1_Auto1.uasset'
+[2018.05.10-14.30.32:355][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1_1_Auto1.uasset
+[2018.05.10-14.30.32:355][210]LogFileHelpers: Auto-saving content packages took 0.501
+[2018.05.10-14.32.14:349][929]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.32.19:727][993]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX)
+[2018.05.10-14.32.19:735][993]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.32.19:735][993]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.32.19:735][993]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.32.19:735][993]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.32.19:735][993]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.32.19:735][993]LogFbx: ItemName: Material, ItemCount : 2
+[2018.05.10-14.32.19:740][993]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.32.19:747][993]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.32.22:163][993]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.32.22:199][993]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.32.22:205][993]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.32.22:212][993]LogMaterial: Missing cached shader map for material PharmaciePanel_0_2, compiling. 
+[2018.05.10-14.32.22:241][993]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.32.22:241][993]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.32.22:241][993]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.32.22:276][993]LogMaterial: Missing cached shader map for material PharmaciePanel_0_3, compiling. 
+[2018.05.10-14.32.22:298][993]LogFbx: Warning: Triangulating static mesh Box003
+[2018.05.10-14.32.22:324][993]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.32.22:335][993]LogStaticMesh: Building static mesh Pharmacie_Panneau_0...
+[2018.05.10-14.32.22:344][993]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0.Pharmacie_Panneau_0
+[2018.05.10-14.32.22:345][993]LogStaticMesh: Warning: Pharmacie_Panneau_0 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.10-14.32.22:345][993]LogStaticMesh: Warning: Pharmacie_Panneau_0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.10-14.32.22:430][993]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.32.22:430][993]FBXImport: Warning: Pharmacie_Panneau_0 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.10-14.32.22:430][993]FBXImport: Warning: Pharmacie_Panneau_0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.10-14.32.23:337][  8]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.32.24:454][ 35]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.32.24:464][ 35]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.32.25:864][ 64]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.32.42:240][638]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.32.50:388][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_0_0" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0_0.uasset" SILENT=true
+[2018.05.10-14.32.50:404][831]LogSavePackage: Save=13.58ms
+[2018.05.10-14.32.50:404][831]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0_08FF3CFC0442ADF1FD3D00784A3E8F6BA.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0_0.uasset'
+[2018.05.10-14.32.50:412][831]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0_0.uasset
+[2018.05.10-14.32.57:632][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_0b" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0b.uasset" SILENT=true
+[2018.05.10-14.32.57:649][137]LogSavePackage: Save=13.93ms
+[2018.05.10-14.32.57:649][137]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0bA9B56214486BF59B81D759BFB5D247F0.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0b.uasset'
+[2018.05.10-14.32.57:656][137]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0b.uasset
+[2018.05.10-14.33.01:983][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_0a" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0a.uasset" SILENT=true
+[2018.05.10-14.33.01:998][318]LogSavePackage: Save=12.80ms
+[2018.05.10-14.33.01:998][318]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0aD206171645BCB977614C619D912F1985.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0a.uasset'
+[2018.05.10-14.33.02:009][318]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0a.uasset
+[2018.05.10-14.33.36:575][745]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.33.42:682][853]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.33.45:001][945]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX)
+[2018.05.10-14.33.45:012][945]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.33.45:012][945]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.33.45:012][945]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.33.45:012][945]LogFbx: ItemName: Model, ItemCount : 7
+[2018.05.10-14.33.45:012][945]LogFbx: ItemName: Geometry, ItemCount : 7
+[2018.05.10-14.33.45:012][945]LogFbx: ItemName: Material, ItemCount : 4
+[2018.05.10-14.33.45:017][945]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.33.45:030][945]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.33.46:091][945]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.33.46:126][945]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.33.46:142][945]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.33.46:142][945]LogFbx: Warning: Triangulating static mesh Box001
+[2018.05.10-14.33.46:150][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box001...
+[2018.05.10-14.33.46:155][945]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Box001.Pharmacie_Panneau_0_Box001
+[2018.05.10-14.33.46:172][945]LogMaterial: Missing cached shader map for material 04_-_Default, compiling. 
+[2018.05.10-14.33.46:194][945]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.33.46:194][945]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.33.46:194][945]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.33.46:194][945]LogFbx: Warning: Triangulating static mesh Box002
+[2018.05.10-14.33.46:236][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box002...
+[2018.05.10-14.33.46:250][945]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Box002.Pharmacie_Panneau_0_Box002
+[2018.05.10-14.33.46:266][945]LogMaterial: Missing cached shader map for material PharmaciePanel_0_0, compiling. 
+[2018.05.10-14.33.46:278][945]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.33.46:337][945]LogMaterial: Missing cached shader map for material PharmaciePanel_0_1, compiling. 
+[2018.05.10-14.33.46:366][945]LogFbx: Warning: Triangulating static mesh Box003
+[2018.05.10-14.33.46:399][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box003...
+[2018.05.10-14.33.46:409][945]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Box003.Pharmacie_Panneau_0_Box003
+[2018.05.10-14.33.46:417][945]LogFbx: Warning: Triangulating static mesh Box004
+[2018.05.10-14.33.46:426][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box004...
+[2018.05.10-14.33.46:432][945]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Box004.Pharmacie_Panneau_0_Box004
+[2018.05.10-14.33.46:449][945]LogMaterial: Missing cached shader map for material PharmaciePanel_1_2, compiling. 
+[2018.05.10-14.33.46:482][945]LogFbx: Warning: Triangulating static mesh Box006
+[2018.05.10-14.33.46:525][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box006...
+[2018.05.10-14.33.46:531][945]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0_Box006.Pharmacie_Panneau_0_Box006
+[2018.05.10-14.33.46:543][945]LogFbx: Warning: Triangulating static mesh Box007
+[2018.05.10-14.33.46:546][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Box007...
+[2018.05.10-14.33.46:549][945]LogStaticMesh: Built static mesh [0.00s] /Game/ZImports/Pharmacie_Panneau_0_Box007.Pharmacie_Panneau_0_Box007
+[2018.05.10-14.33.46:574][945]LogStaticMesh: Building static mesh Pharmacie_Panneau_0_Text001...
+[2018.05.10-14.33.46:670][945]LogStaticMesh: Built static mesh [0.10s] /Game/ZImports/Pharmacie_Panneau_0_Text001.Pharmacie_Panneau_0_Text001
+[2018.05.10-14.33.46:712][945]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.33.47:181][948]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.05.10-14.33.49:760][ 30]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.05.10-14.33.49:830][ 32]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.05.10-14.33.51:703][ 75]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.05.10-14.33.52:238][ 86]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.10-14.33.52:449][ 91]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.10-14.33.52:766][ 99]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.33.52:776][ 99]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.34.15:241][655]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.34.28:621][775]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX)
+[2018.05.10-14.34.28:629][775]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.34.28:629][775]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.34.28:629][775]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.34.28:629][775]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.34.28:629][775]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.34.28:629][775]LogFbx: ItemName: Material, ItemCount : 2
+[2018.05.10-14.34.28:635][775]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.34.28:641][775]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.34.31:647][775]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.34.31:689][775]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.34.31:700][775]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.34.31:703][775]LogMaterial: Missing cached shader map for material PharmaciePanel_0_0, compiling. 
+[2018.05.10-14.34.31:727][775]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.34.31:727][775]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.34.31:727][775]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.34.31:773][775]LogMaterial: Missing cached shader map for material PharmaciePanel_0_1, compiling. 
+[2018.05.10-14.34.31:784][775]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.34.31:803][775]LogFbx: Warning: Triangulating static mesh Box003
+[2018.05.10-14.34.31:843][775]LogStaticMesh: Building static mesh Pharmacie_Panneau_0...
+[2018.05.10-14.34.31:853][775]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0.Pharmacie_Panneau_0
+[2018.05.10-14.34.31:864][775]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.34.31:884][775]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX)
+[2018.05.10-14.34.31:897][775]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX
+[2018.05.10-14.34.31:905][775]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.34.31:910][775]LogMaterial: Missing cached shader map for material PharmaciePanel_1_0, compiling. 
+[2018.05.10-14.34.31:936][775]LogFbx: Warning: Triangulating static mesh Box006
+[2018.05.10-14.34.31:966][775]LogStaticMesh: Building static mesh Pharmacie_Panneau_1...
+[2018.05.10-14.34.31:971][775]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_1.Pharmacie_Panneau_1
+[2018.05.10-14.34.31:985][775]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.34.31:990][775]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_2.FBX)
+[2018.05.10-14.34.32:007][775]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_2.FBX
+[2018.05.10-14.34.32:022][775]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.34.32:028][775]LogMaterial: Missing cached shader map for material PharmaciePanel_1_1, compiling. 
+[2018.05.10-14.34.32:096][775]LogStaticMesh: Building static mesh Pharmacie_Panneau_2...
+[2018.05.10-14.34.32:153][775]LogStaticMesh: Built static mesh [0.06s] /Game/ZImports/Pharmacie_Panneau_2.Pharmacie_Panneau_2
+[2018.05.10-14.34.32:191][775]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.34.32:727][780]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.05.10-14.34.34:028][824]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.34.34:040][824]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.34.35:276][857]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.05.10-14.34.35:363][859]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.05.10-14.34.35:982][868]LogMaterial: Missing cached shader map for material PharmaciePanel_0_0, compiling. 
+[2018.05.10-14.34.37:439][868]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.05.10-14.34.37:577][868]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.10-14.34.37:577][868]LogMaterial: Missing cached shader map for material PharmaciePanel_0_0, compiling. 
+[2018.05.10-14.34.37:618][868]LogMaterial: Missing cached shader map for material PharmaciePanel_0_0, compiling. 
+[2018.05.10-14.34.37:680][868]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.34.37:695][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-14.34.37:793][868]LogSlate: Took 0.015337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.10-14.34.38:487][868]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.05.10-14.34.38:488][868]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.34.38:584][869]LogSlate: Took 0.010728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.10-14.34.38:635][870]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.10-14.34.38:955][876]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.10-14.34.39:257][879]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.10-14.34.39:576][885]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.10-14.34.39:637][886]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.10-14.34.39:893][891]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.10-14.34.40:231][898]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.10-14.34.40:296][899]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.10-14.34.40:556][904]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.10-14.34.40:596][905]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.34.41:078][915]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.10-14.34.41:135][915]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.10-14.34.41:421][922]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.10-14.34.41:657][926]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.10-14.34.41:754][928]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.10-14.34.41:779][928]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.10-14.34.41:796][928]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.05.10-14.34.41:796][928]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.05.10-14.34.41:796][928]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.05.10-14.34.41:796][928]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-14.34.46:639][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_0a" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0a.uasset" SILENT=true
+[2018.05.10-14.34.46:655][116]LogSavePackage: Save=13.43ms
+[2018.05.10-14.34.46:656][116]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0a956A646D45BFC39CD0EEB9BEF45FF747.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0a.uasset'
+[2018.05.10-14.34.46:663][116]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0a.uasset
+[2018.05.10-14.34.50:672][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_0b" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0b.uasset" SILENT=true
+[2018.05.10-14.34.50:689][275]LogSavePackage: Save=14.14ms
+[2018.05.10-14.34.50:689][275]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0b2B509E5A4125C8045B0836B019C45058.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0b.uasset'
+[2018.05.10-14.34.50:696][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_0b.uasset
+[2018.05.10-14.34.56:152][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_1" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_1.uasset" SILENT=true
+[2018.05.10-14.34.56:168][500]LogSavePackage: Save=13.27ms
+[2018.05.10-14.34.56:168][500]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1586E408447CD0DB54E46E09E79CBA9B5.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_1.uasset'
+[2018.05.10-14.34.56:176][500]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_1.uasset
+[2018.05.10-14.34.59:918][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/PharmaciePanel_2" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_2.uasset" SILENT=true
+[2018.05.10-14.34.59:936][652]LogSavePackage: Save=15.48ms
+[2018.05.10-14.34.59:936][652]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_235DAD37C4F8A9888B52936BAFED498C7.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_2.uasset'
+[2018.05.10-14.34.59:944][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/PharmaciePanel_2.uasset
+[2018.05.10-14.35.13:535][334]LogActorFactory: Actor Factory created Pharmacie_Panneau_1
+[2018.05.10-14.35.14:653][361]LogActorFactory: Actor Factory created Pharmacie_Panneau_1
+[2018.05.10-14.35.18:764][495]Cmd: DELETE
+[2018.05.10-14.35.18:764][495]Cmd: ACTOR DELETE
+[2018.05.10-14.35.19:143][495]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.10-14.35.19:160][495]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2018.05.10-14.35.21:074][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-14.36.07:129][ 78]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.36.07:187][ 78]LogSlate: Window 'PharmaciePanel_0a' being destroyed
+[2018.05.10-14.36.52:980][242]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX)
+[2018.05.10-14.36.52:989][242]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.36.52:989][242]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.36.52:989][242]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.36.52:989][242]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.36.52:989][242]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.36.52:989][242]LogFbx: ItemName: Material, ItemCount : 2
+[2018.05.10-14.36.52:994][242]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.36.53:001][242]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.36.54:158][242]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.36.54:198][242]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_0.FBX
+[2018.05.10-14.36.54:206][242]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.36.54:211][242]LogMaterial: Missing cached shader map for material PharmaciePanel_0a, compiling. 
+[2018.05.10-14.36.54:236][242]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.36.54:237][242]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.36.54:237][242]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.36.54:278][242]LogMaterial: Missing cached shader map for material PharmaciePanel_0b, compiling. 
+[2018.05.10-14.36.54:291][242]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.36.54:312][242]LogFbx: Warning: Triangulating static mesh Box003
+[2018.05.10-14.36.54:352][242]LogStaticMesh: Building static mesh Pharmacie_Panneau_0...
+[2018.05.10-14.36.54:362][242]LogStaticMesh: Built static mesh [0.01s] /Game/ZImports/Pharmacie_Panneau_0.Pharmacie_Panneau_0
+[2018.05.10-14.36.54:374][242]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.36.55:296][259]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.36.57:794][325]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.36.58:055][331]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.36.58:093][331]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.36.59:252][366]LogActorFactory: Actor Factory created Pharmacie_Panneau_0
+[2018.05.10-14.37.01:723][438]LogActorFactory: Actor Factory created Pharmacie_Panneau_0
+[2018.05.10-14.37.21:835][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-14.38.12:706][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pharmacie_Panneau_0)
+[2018.05.10-14.38.14:315][601]Cmd: DELETE
+[2018.05.10-14.38.14:315][601]Cmd: ACTOR DELETE
+[2018.05.10-14.38.14:361][601]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.10-14.38.14:379][601]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2018.05.10-14.38.15:721][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-14.38.18:114][779]LogSavePackage: Save=12.30ms
+[2018.05.10-14.38.18:114][779]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0a5644F1444BA728A88F4F0BABEE784CFD.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_0a.uasset'
+[2018.05.10-14.38.18:121][779]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_0a.uasset
+[2018.05.10-14.38.18:160][779]LogSavePackage: Save=16.11ms
+[2018.05.10-14.38.18:160][779]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_0bCC19FEC14E37436D8D13E582D3FBC8B2.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_0b.uasset'
+[2018.05.10-14.38.18:168][779]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_0b.uasset
+[2018.05.10-14.40.13:114][346]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX)
+[2018.05.10-14.40.13:123][346]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.40.13:123][346]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.40.13:123][346]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.40.13:123][346]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.40.13:123][346]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.40.13:123][346]LogFbx: ItemName: Material, ItemCount : 2
+[2018.05.10-14.40.13:128][346]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX
+[2018.05.10-14.40.13:138][346]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.40.15:220][346]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.40.15:266][346]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX
+[2018.05.10-14.40.15:277][346]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.40.15:284][346]LogMaterial: Missing cached shader map for material PharmaciePanel_1b, compiling. 
+[2018.05.10-14.40.15:312][346]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.40.15:312][346]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.40.15:312][346]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.40.15:355][346]LogMaterial: Missing cached shader map for material PharmaciePanel_1a, compiling. 
+[2018.05.10-14.40.15:364][346]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.40.15:433][346]LogStaticMesh: Building static mesh Pharmacie_Panneau_1...
+[2018.05.10-14.40.15:496][346]LogStaticMesh: Built static mesh [0.06s] /Game/ZImports/Pharmacie_Panneau_1.Pharmacie_Panneau_1
+[2018.05.10-14.40.15:526][346]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.40.16:356][356]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.40.17:456][380]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.40.17:467][380]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.40.18:784][407]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.40.21:080][501]LogSavePackage: Save=14.67ms
+[2018.05.10-14.40.21:080][501]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1a1AFD3EFE4FFADAAF0F981895D950DA6C.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1a.uasset'
+[2018.05.10-14.40.21:089][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1a.uasset
+[2018.05.10-14.40.21:124][501]LogSavePackage: Save=13.63ms
+[2018.05.10-14.40.21:124][501]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1bD8502B404971604C61B2FBA4C7A69815.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1b.uasset'
+[2018.05.10-14.40.21:134][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1b.uasset
+[2018.05.10-14.40.22:349][533]LogActorFactory: Actor Factory created Pharmacie_Panneau_1
+[2018.05.10-14.40.24:388][593]LogActorFactory: Actor Factory created Pharmacie_Panneau_1
+[2018.05.10-14.40.29:720][835]Cmd: DELETE
+[2018.05.10-14.40.29:720][835]Cmd: ACTOR DELETE
+[2018.05.10-14.40.29:767][835]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.10-14.40.29:784][835]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.05.10-14.40.30:632][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-14.40.33:162][921]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.40.39:355][138]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.10-14.41.05:614][410]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX)
+[2018.05.10-14.41.05:622][410]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.10-14.41.05:622][410]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.10-14.41.05:622][410]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.10-14.41.05:622][410]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.10-14.41.05:622][410]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.10-14.41.05:622][410]LogFbx: ItemName: Material, ItemCount : 2
+[2018.05.10-14.41.05:627][410]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX
+[2018.05.10-14.41.05:639][410]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.41.08:248][410]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.10-14.41.08:303][410]LogFbx: Loading FBX Scene from C:\Users\Gueux_1er\Desktop\Pharmacie_Panneau_1.FBX
+[2018.05.10-14.41.08:314][410]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.10-14.41.08:319][410]LogMaterial: Missing cached shader map for material PharmaciePanel_1b, compiling. 
+[2018.05.10-14.41.08:343][410]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.41.08:343][410]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.41.08:343][410]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.41.08:398][410]LogMaterial: Missing cached shader map for material PharmaciePanel_1a, compiling. 
+[2018.05.10-14.41.08:409][410]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.10-14.41.08:474][410]LogStaticMesh: Building static mesh Pharmacie_Panneau_1...
+[2018.05.10-14.41.08:540][410]LogStaticMesh: Built static mesh [0.07s] /Game/ZImports/Pharmacie_Panneau_1.Pharmacie_Panneau_1
+[2018.05.10-14.41.08:569][410]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.10-14.41.09:391][421]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.10-14.41.12:191][503]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.10-14.41.12:889][526]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.41.12:901][526]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-14.41.13:899][558]LogActorFactory: Actor Factory created Pharmacie_Panneau_1
+[2018.05.10-14.41.18:025][698]LogActorFactory: Actor Factory created Pharmacie_Panneau_1
+[2018.05.10-14.41.20:836][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-14.41.24:173][805]LogSavePackage: Save=3112.62ms
+[2018.05.10-14.41.24:173][805]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Example_Auto2167E3FCF48BAAC1A801351AACAFD6D61.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/Maps/Example_Auto2.umap'
+[2018.05.10-14.41.24:179][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/Maps/Example_Auto2.umap
+[2018.05.10-14.41.24:223][805]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example' took 3.358
+[2018.05.10-14.41.24:224][805]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.358
+[2018.05.10-14.41.24:232][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/Pharmacie_Panneau_0] ([1] browsable assets)...
+[2018.05.10-14.41.24:247][805]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ZImports/Pharmacie_Panneau_0.Pharmacie_Panneau_0]
+[2018.05.10-14.41.24:247][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/Pharmacie_Panneau_0]
+[2018.05.10-14.41.24:264][805]LogSavePackage: Save=13.60ms
+[2018.05.10-14.41.24:264][805]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_0_Auto2A79A5C6349B351065281DF954302C2F7.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_0_Auto2.uasset'
+[2018.05.10-14.41.24:267][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_0_Auto2.uasset
+[2018.05.10-14.41.24:269][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/PharmaciePanel_1a] ([1] browsable assets)...
+[2018.05.10-14.41.24:283][805]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/PharmaciePanel_1a.PharmaciePanel_1a]
+[2018.05.10-14.41.24:283][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/PharmaciePanel_1a]
+[2018.05.10-14.41.24:302][805]LogSavePackage: Save=15.61ms
+[2018.05.10-14.41.24:302][805]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1a_Auto23AE0FBC64CB3AB8AB3E084A4EDD662FE.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1a_Auto2.uasset'
+[2018.05.10-14.41.24:306][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1a_Auto2.uasset
+[2018.05.10-14.41.24:307][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/04_-_Default] ([1] browsable assets)...
+[2018.05.10-14.41.24:323][805]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/04_-_Default.04_-_Default]
+[2018.05.10-14.41.24:323][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/04_-_Default]
+[2018.05.10-14.41.24:338][805]LogSavePackage: Save=11.89ms
+[2018.05.10-14.41.24:338][805]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/04_-_Default_Auto292653DC14091BE1915A42CB0E921A0BD.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/04_-_Default_Auto2.uasset'
+[2018.05.10-14.41.24:342][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/04_-_Default_Auto2.uasset
+[2018.05.10-14.41.24:344][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/PharmaciePanel_1b] ([1] browsable assets)...
+[2018.05.10-14.41.24:358][805]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZImports/PharmaciePanel_1b.PharmaciePanel_1b]
+[2018.05.10-14.41.24:358][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/PharmaciePanel_1b]
+[2018.05.10-14.41.24:375][805]LogSavePackage: Save=14.50ms
+[2018.05.10-14.41.24:375][805]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1b_Auto263FBEF874DB5FB6AA97661A860DE7F57.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1b_Auto2.uasset'
+[2018.05.10-14.41.24:380][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/PharmaciePanel_1b_Auto2.uasset
+[2018.05.10-14.41.24:382][805]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZImports/Pharmacie_Panneau_1] ([1] browsable assets)...
+[2018.05.10-14.41.24:398][805]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ZImports/Pharmacie_Panneau_1.Pharmacie_Panneau_1]
+[2018.05.10-14.41.24:398][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZImports/Pharmacie_Panneau_1]
+[2018.05.10-14.41.24:446][805]LogSavePackage: Save=14.67ms
+[2018.05.10-14.41.24:447][805]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_1_Auto2A8C7A59C449A80EEAFA5208A4CA8612F.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_1_Auto2.uasset'
+[2018.05.10-14.41.24:450][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Autosaves/Game/ZImports/Pharmacie_Panneau_1_Auto2.uasset
+[2018.05.10-14.41.24:451][805]LogFileHelpers: Auto-saving content packages took 0.222
+[2018.05.10-14.41.51:678][523]Cmd: DELETE
+[2018.05.10-14.41.51:678][523]Cmd: ACTOR DELETE
+[2018.05.10-14.41.51:728][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.10-14.41.51:745][523]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2018.05.10-14.41.54:012][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-14.41.57:426][826]LogSavePackage: Save=15.43ms
+[2018.05.10-14.41.57:426][826]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1b826970474594D18FA2560DAA099FFE42.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1b.uasset'
+[2018.05.10-14.41.57:433][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1b.uasset
+[2018.05.10-14.41.57:469][826]LogSavePackage: Save=14.96ms
+[2018.05.10-14.41.57:469][826]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/PharmaciePanel_1aCC1AA16D4BFB0355E92210B4F11C9A5C.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1a.uasset'
+[2018.05.10-14.41.57:476][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Material/PharmaciePanel_1a.uasset
+[2018.05.10-14.42.12:015][231]LogSlate: Window 'Save Content' being destroyed
+[2018.05.10-14.42.15:282][231]LogSavePackage: Save=3010.58ms
+[2018.05.10-14.42.15:283][231]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Example430324D0446218A5EB1963B2B636DE5A.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/Maps/Example.umap'
+[2018.05.10-14.42.15:294][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/Maps/Example.umap
+[2018.05.10-14.42.15:326][231]LogFileHelpers: Saving map 'Example' took 3.233
+[2018.05.10-14.42.15:351][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZImports/04_-_Default" FILE="../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/04_-_Default.uasset" SILENT=true
+[2018.05.10-14.42.15:367][231]LogSavePackage: Save=12.79ms
+[2018.05.10-14.42.15:367][231]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/04_-_Default1C509CE945786201A68A1E866F2D8967.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/04_-_Default.uasset'
+[2018.05.10-14.42.15:372][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/04_-_Default.uasset
+[2018.05.10-14.42.15:428][231]LogSavePackage: Save=13.50ms
+[2018.05.10-14.42.15:428][231]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_036249BA7454733AE3C101E82B270F0A0.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Pharmacie_Panneau_0.uasset'
+[2018.05.10-14.42.15:434][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Pharmacie_Panneau_0.uasset
+[2018.05.10-14.42.15:473][231]LogSavePackage: Save=17.44ms
+[2018.05.10-14.42.15:473][231]LogSavePackage: Moving '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Saved/Pharmacie_Panneau_1E11004E142336597FFA82CBBB68AE31F.tmp' to '../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Pharmacie_Panneau_1.uasset'
+[2018.05.10-14.42.15:480][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Gueux_1er/Documents/Unreal Projects/Gare_Hitman/CyanideTest/Content/ZImports/Pharmacie_Panneau_1.uasset
+[2018.05.10-14.42.48:177][602]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.05.10-14.42.48:184][602]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.05.10-14.42.54:121][761]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CyanideTest
+[2018.05.10-14.42.54:121][761]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.10-14.42.54:121][761]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.19
+[2018.05.10-14.42.54:121][761]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.10-14.42.54:121][761]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.10-14.42.54:387][762]LogTemp: BranchPath = PC-GUEUX1ER/D/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = PC-GUEUX1ER/D/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.05.10-14.42.54:387][762]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Gueux_1er\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.10-14.43.56:024][160]LogSlate: Window 'Project Settings' being destroyed
+[2018.05.10-14.43.56:029][160]LogSlate: Window 'Project Settings' being destroyed
